@@ -3,7 +3,8 @@ class Node:
         """ Initialize the node with the data, level of the node and the calculated fvalue """
         self.data = data
         self.level = level
-        self.fval = fval
+        self.fval = fva
+        
 
     def generate_child(self):
         """ Generate child nodes from the given node by moving the blank space
